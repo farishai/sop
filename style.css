@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "dhivehi";
+    src: url("fonts/MVWaheed.otf");
+    font-weight: 800;
+  }
+
+@font-face {
+    font-family: "dhivehi";
+    src: url("fonts/MV_Faseyha.otf");
+    font-weight: 400;
+  }
+
+.dhivehi-text {
+    font-family: dhivehi;
+    direction: rtl;
+  }
+
+title {
+    font-family: dhivehi;
+}
+
+.border {
+    width: 80%;
+    margin: auto;
+}
+
+.fa-solid {
+    font-size: 25px;
+    color: rgb(126, 124, 124)   ;
+    border: 1px solid rgb(182, 180, 180);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fa-solid:hover {
+    color: #000;
+}
+
+.fa-house {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+th {
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.order {
+    width: 50%;
+    margin: 30px auto;
+    font-size: 18px;
+}
+
+
